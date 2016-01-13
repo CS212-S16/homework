@@ -7,9 +7,9 @@ To prepare for this homework, make sure to *carefully* follow the following step
 
 1. Clone your homework repository as outlined in the [homework guidelines](https://github.com/CS212-S16/lectures/blob/master/notes/homeworkguidelines.md). For this homework, complete code to pass all test cases in the `SongStatistics` project. 
 
-2. Download the [last.fm "TEST" data set](http://labrosa.ee.columbia.edu/millionsong/lastfm) here: [http://labrosa.ee.columbia.edu/millionsong/sites/default/files/lastfm/lastfm_test.zip](http://labrosa.ee.columbia.edu/millionsong/sites/default/files/lastfm/lastfm_test.zip)
+2. Download the [last.fm "SUBSET" data set](http://labrosa.ee.columbia.edu/millionsong/lastfm) here: [http://labrosa.ee.columbia.edu/millionsong/sites/default/files/lastfm/lastfm_subset.zip](http://labrosa.ee.columbia.edu/millionsong/sites/default/files/lastfm/lastfm_subset.zip)
 
-3. Extract the data into a directory in the top-level SongStatistics project directory. For example, if you have downloaded the SongStatistics project into `/Users/srollins/cs212/homework/SongStatistics` then you should have a directory `/Users/srollins/cs212/homework/SongStatistics/lastfm_test` that contains all of the data downloaded from the site.
+3. Extract the data into a directory in the top-level SongStatistics project directory. For example, if you have downloaded the SongStatistics project into `/Users/srollins/cs212/homework/SongStatistics` then you should have a directory `/Users/srollins/cs212/homework/SongStatistics/lastfm_subset` that contains all of the data downloaded from the site.
 
 :warning: for the test cases to work correctly it is very important that you download the correct data set and make sure to save it in the correct location.
 
@@ -88,5 +88,4 @@ The methods required are as follows:
 
 - You will need to declare several data members, for example to store the path, the recursive flag, and the variables used to store and calculate the statistics.
 - My solution uses four additional private methods. Your soluion may use more or fewer, however your final grade will depend on how well you decompose the problem into methods.
-- Do not be afraid to create your own test cases! It is highly recommended that you create your own Driver or Test class that uses a main method to test your code before you start using the JUnit test cases.
 - If you do not follow all [style guidelines](https://github.com/CS212-S16/lectures/blob/master/notes/style.md) you will receive a deduction.

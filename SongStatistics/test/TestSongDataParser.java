@@ -15,32 +15,32 @@ public class TestSongDataParser {
 	@BeforeClass
 	public static void setUp() {
 		
-		Path recursivePath = Paths.get("lastfm_test/");
+		Path recursivePath = Paths.get("lastfm_subset/");
 		recursiveSDP = new SongDataParser(recursivePath, true);
 		
-		Path nonRecursivePath = Paths.get("lastfm_test/A/W/K");
+		Path nonRecursivePath = Paths.get("lastfm_subset/A/W/K");
 		nonRecursiveSDP = new SongDataParser(nonRecursivePath, false);
 	}
 		
 	@Test
 	public void testNonRecursiveCount() {
-		assertEquals(nonRecursiveSDP.getSongCount(), 5);
+		assertEquals(nonRecursiveSDP.getSongCount(), 9);
 	}
 
 	@Test
 	public void testNonRecursiveMean() {
-		assertEquals(nonRecursiveSDP.getMeanNumberSimilarSongs(), 87, 0);
+		assertEquals(nonRecursiveSDP.getMeanNumberSimilarSongs(), 49, 1);
 	}
 
 	@Test
 	public void testRecursiveCount() {
-		assertEquals(recursiveSDP.getSongCount(), 104212);
+		assertEquals(recursiveSDP.getSongCount(), 9330);
 	}
 
 
 	@Test
 	public void testRecursiveMean() {
-		assertEquals(Math.floor(recursiveSDP.getMeanNumberSimilarSongs()), 61, 0);
+		assertEquals(Math.floor(recursiveSDP.getMeanNumberSimilarSongs()), 65, 1);
 	}
 
 	@Test
