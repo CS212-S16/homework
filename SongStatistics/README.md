@@ -81,11 +81,11 @@ To receive full credit, you must complete the methods specified in `SongDataPars
 The methods required are as follows:
 
 - `SongDataParser` - The constructor takes as input a path specifying a directory and a boolean indicating whether or not to recursively traverse the directory. It will initialize any data members  and process the directory specified in the path parameter. If the isRecursive parameter is true it will process all descendant subdirectories of the path variable, else it will only process the directory specified by the path variable. To process a directory, it will find all files ending with `.json`, case insensitive, to determine the total number of songs (i.e., the total number of JSON files found) and the mean number of similar songs (i.e., the average length of the "similars" list.
-- `getSongCount` - Returns an integer specifying the number of sounds found.
-- `getMeanNumberSimilarSongs` - Returns a double specifying the average length of the "similars" list.
+- `getSongCount` - Returns an integer specifying the number of songs found.
+- `getMeanNumberSimilarSongs` - Returns a double specifying the average length of the "similars" list across all songs.
 
 ### Hints
 
 - You will need to declare several data members, for example to store the path, the recursive flag, and the variables used to store and calculate the statistics.
-- My solution uses four additional private methods. Your soluion may use more or fewer, however your final grade will depend on how well you decompose the problem into methods.
+- My solution uses four additional private methods. Your solution may use more or fewer, however your final grade will depend on how well you decompose the problem into methods.
 - If you do not follow all [style guidelines](https://github.com/CS212-S16/lectures/blob/master/notes/style.md) you will receive a deduction.
