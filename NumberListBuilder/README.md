@@ -34,3 +34,7 @@ You will complete the `buildList` method as follows:
 - If any items in the array are not integers (i.e., parsing them generates a `NumberFormatException`), ignore those items. Note that "a" and "b" from the example above are ignored.
 - If the file can be opened and contains valid JSON but does **not** contain the key `list`, throw a custom exception of the type `InvalidJsonSchemaException`.
  
+ ## Hints
+ 
+ - You *may* change the header of the ``buildList` method.
+ - The test cases will not compile appropriately until you have correctly implemented the `InvalidJsonSchemaException` class.
