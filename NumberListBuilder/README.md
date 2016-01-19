@@ -36,5 +36,5 @@ You will complete the `buildList` method as follows:
  
  ## Hints
  
-- You *may* change the header of the ``buildList` method.
+- You *may* change the header of the `buildList` method.
 - The test cases will not compile appropriately until you have correctly implemented the `InvalidJsonSchemaException` class.
