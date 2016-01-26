@@ -29,4 +29,6 @@ For this homework you will implement two classes:
 
 **`MusicLibrary`** - The `MusicLibrary` class will store the `Song` objects for all songs in the collection. It will provide methods to add a song to the library, and retrieve songs in *two* ways. `getSongById` will take as input a *unique* track ID and return the `Song` object that represents the track, or null if the song does not exist. `getSongsByArtist` will take an artist name and will return a *sorted* set of all songs by the given artist. The set will be sorted first by artist. If the artists are the same, sort the songs by title. If both artist and title are the same, sort by track ID, which you may assume is unique.
 
+### Hints
+
 It is strongly recommended that you maintain multiple data structures in your `MusicLibrary`. Each will refer to the underlying `Song` objects in different ways, and ensure that you may efficiently access the data in multiple ways.
