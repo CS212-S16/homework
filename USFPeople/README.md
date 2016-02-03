@@ -3,7 +3,7 @@ USFPeople
 
 For this homework you will practice using inheritance to implement objects to store data about USF people. 
 
-:warning The test cases for this homework will not compile until you have implemented the classes specified below.
+:warning: The test cases for this homework will not compile until you have implemented the classes specified below.
 
 ## Due Friday 2/26 - 11:59pm
 
