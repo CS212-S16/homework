@@ -6,9 +6,9 @@ To prepare for this assignment, make sure to do the following:
 
 1. Sign up for a [last.fm](http://www.last.fm/) account.
 2. Sign up for a [last.fm API](http://www.last.fm/api) account.
-3. [Get an API Key](http://www.last.fm/api/authentication). Make *certain* to note your API key as you cannot retrieve it later.
+3. [Get an API Key](http://www.last.fm/api/authentication).
 
-Make note of your API key. You will need to include it as a URL parameter in all requests you send to the last.fm API.
+:warning: **Make note of your API key**. You will need to include it as a URL parameter in all requests you send to the last.fm API, and you cannot retrieve it later.
 
 ## Due Friday 4/29 - 11:59pm
 
