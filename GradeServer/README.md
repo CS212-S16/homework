@@ -3,7 +3,7 @@ GradeServer
 
 For this homework, you will extend a program that uses [Jetty](https://eclipse.org/jetty/) and [Java Servlets](https://docs.oracle.com/cd/E17802_01/products/products/servlet/2.5/docs/servlet-2_5-mr2/index.html?javax/servlet/package-summary.html) to display student grades on a web page.
 
-## Due Friday 4/8 - 11:59pm
+## Due Friday 4/15 - 11:59pm
 
 ## Starter Code
 
