@@ -39,7 +39,7 @@ The `TweetParser` will process a CSV file and build two `HashMap` data structure
 
 3. A tag may contain any other character (including punctuation).
 
-4. A tag must be preceded by a space, or be at the beginning of a tweet.
+4. A tag must be preceded by whitespace, or be at the beginning of a tweet.
 
 5. Examples: 
  - This tweet has two hash tags:
